@@ -49,11 +49,15 @@ UBUNTU DI VIRTUAL BOX PUN SIAP DIGUNAKAN
 
 SOAL NO.2
 -Analisislah pada gambar kenapa saat instalasi perlu dipilih “/” pada opsi Mount Point?
+
+
 JAWAB:
 Menetapkan “/” sebagai “Mount point” saat menginstal Linux sangat krusial karena beberapa alasan yang berkaitan dengan struktur direktori dan manajemen sistem operasi. “/” adalah direktori root, yang menjadi fondasi dari seluruh struktur sistem file di Linux. Semua direktori lain, seperti /home, /var, dan /usr, berada di bawah “/”. Tanpa menetapkan “/” sebagai Mount Point, sistem operasi tidak akan dapat menemukan file penting yang diperlukan untuk booting, yang akan menyebabkan kegagalan dalam memulai sistem. Selain itu, menetapkan “/” sebagai Mount Point memastikan bahwa partisi ini dialokasikan untuk semua file sistem dasar dan aplikasi yang diinstal, yang memungkinkan pengelolaan ruang penyimpanan yang efisien. Hal ini juga memungkinkan pemisahan file sistem dari file pengguna, yang dapat meningkatkan keamanan dan stabilitas sistem. Dengan demikian, menetapkan “/” sebagai Mount Point adalah langkah penting untuk memastikan bahwa sistem Linux berfungsi dengan baik, efisien, dan terorganisir dengan benar.
 
 SOAL NO.3
 -Berikan penjelasan tentang ext4, ext3, swap, ntfs, fat32,btrfs!
+
+
 JAWAB:
 Saat menginstal Linux, Anda akan sering menemui berbagai jenis sistem file dan partisi yang memiliki fungsi serta karakteristik berbeda. Berikut adalah penjelasan singkat tentang masing-masing:
 
